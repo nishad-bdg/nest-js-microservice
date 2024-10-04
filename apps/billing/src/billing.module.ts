@@ -4,6 +4,7 @@ import { BillingService } from './billing.service';
 import { ConfigModule } from '@nestjs/config';
 import { RmqModule } from '@app/common';
 import * as Joi from 'joi';
+import { BILLING_SERVICE } from '../../orders/src/constant/services';
 
 @Module({
   imports: [
